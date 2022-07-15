@@ -1,0 +1,32 @@
+
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.work {
+    display: flex;
+    flex-direction: wrap
+    ;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
