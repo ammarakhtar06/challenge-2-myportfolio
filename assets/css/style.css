@@ -1,32 +1,75 @@
 
-
-header {
+.header {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+#title {
+    width: 70%;
 }
 
-nav {
-    display: flex;
-    flex-direction: column;
+#buttons {
+    width: 30%;
 }
 
-.background {
-    display: flex;
-    flex-direction: column;
+.tags {
+    display: inline;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
+.aboutme {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.h2 {
+    width: 20%;
+}
+
+.img6 {
+    width: 30%;
+    height: 30vh;
+    border: 1px solid black;
+
+}
+
+.paragraph{
+    width: 40%;
+    margin-right: 5%;
+}
+
 
 .work {
     display: flex;
-    flex-direction: wrap
-    ;
+    flex-wrap: wrap;
 }
 
-footer {
+#pic1 {
+    width: 60%;
+    height: 40vh;
+    border: 1px solid black;
+}
+
+#pic2 {
+    width: 30%;
+    margin-left: 20%;
+    border: 1px solid black;
+}
+
+#pic3 {
+    width: 30%;
+    border: 1px solid black;
+}
+
+.footer {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#contactme {
+    width: 70%;
+
+}
+
+.push {
+    display: inline;
 }
